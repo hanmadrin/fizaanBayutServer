@@ -1,0 +1,22 @@
+{
+  "name": "fizaanbayutserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.2",
+    "express": "^4.15.2",
+    "express-formidable": "^1.2.0",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.21.6",
+    "socket.io": "^4.5.0"
+  }
+}
